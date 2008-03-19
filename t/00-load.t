@@ -7,7 +7,7 @@ use Test::More tests => 5;
 my $Test_URI = 'http://www.zoffix.com/new/lwp_ua_proxify_test.html';
 BEGIN {
     use_ok('LWP::UserAgent');
-    use_ok('LWP::UserAgent::ProxifyBase');
+    use_ok('LWP::UserAgent::ProxyHopper::Base');
 	use_ok('LWP::UserAgent::ProxyHopper');
 }
 

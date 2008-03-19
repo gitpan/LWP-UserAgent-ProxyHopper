@@ -9,8 +9,8 @@ WriteMakefile
           'VERSION_FROM' => 'lib/LWP/UserAgent/ProxyHopper.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'LWP::UserAgent::ProxifyBase' => '0.002',
-                           'LWP::UserAgent' => '2.036'
+                           'LWP::UserAgent' => '2.036',
+                           'LWP::UserAgent::ProxiHopper::Base' => '0.001'
                          }
         )
 ;

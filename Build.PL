@@ -11,8 +11,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'LWP::UserAgent'              => 2.036,
-        'LWP::UserAgent::ProxifyBase' => 0.002,
+        'LWP::UserAgent'                    => 2.036,
+        'LWP::UserAgent::ProxiHopper::Base' => 0.001,
     },
     add_to_cleanup      => [ 'LWP-UserAgent-ProxyHopper-*' ],
     create_makefile_pl => 'traditional',
