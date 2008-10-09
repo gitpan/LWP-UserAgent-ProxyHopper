@@ -1,5 +1,8 @@
 Revision history for LWP-UserAgent-Proxify
 
+0.003   Mar 18, 2008
+        Fixed typo in Build.PL
+
 0.002   Mar 18, 2008
         Rename issues... 
 
