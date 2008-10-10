@@ -10,7 +10,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'LWP::UserAgent' => '2.036',
-                           'LWP::UserAgent::ProxyHopper::Base' => '0.001'
+                           'LWP::UserAgent::ProxyHopper::Base' => '0.002'
                          }
         )
 ;

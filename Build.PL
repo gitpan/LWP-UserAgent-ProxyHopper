@@ -12,7 +12,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'LWP::UserAgent'                    => 2.036,
-        'LWP::UserAgent::ProxyHopper::Base' => 0.001,
+        'LWP::UserAgent::ProxyHopper::Base' => 0.002,
     },
     add_to_cleanup      => [ 'LWP-UserAgent-ProxyHopper-*' ],
     create_makefile_pl => 'traditional',
